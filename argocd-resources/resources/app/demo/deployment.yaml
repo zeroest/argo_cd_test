@@ -16,6 +16,6 @@ spec:
         app: http-go
     spec:
       containers:
-      - image: gasbugs/http-go
+      - image: gasbugs/http-go:v1
         name: http-go
 
