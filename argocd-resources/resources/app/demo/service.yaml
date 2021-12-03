@@ -1,0 +1,13 @@
+piVersion: v1
+kind: Service
+metadata:
+  name: http-go-svc
+  labels:
+    app: http-go-svc
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: http-go
